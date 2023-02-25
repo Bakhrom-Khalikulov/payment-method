@@ -101,8 +101,8 @@ img{
     max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 20px;
-    padding-left: 20px;
+    /* padding-right: 20px;
+    padding-left: 20px; */
 }
 
 ol,
@@ -123,21 +123,42 @@ a{
     margin-right: auto;
     margin-left: auto;
     background-color: var(--main-bg-color);
-}
-
-.payment-section__wrapper{
-    padding-top: 50px;
     width: 400px;
     min-height: 400px;
 }
 
-.payment-section__title{
-    margin-bottom: 35px;
-    text-align: center;
+.payment-section__wrapper{
+    padding: 0;
+
 }
 
-.payment-section__options{
+.payment-section__title{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: 1px solid var(--inactive-text-color)
 }
+
+.payment-section__area{
+    width: 100%;
+    max-width: 400px;
+    padding: 15px 25px;
+    border-bottom: 1px solid var(--inactive-text-color)
+}
+
+.payment-section__cards{
+    font-weight: 500;
+}
+
+.payment-section__img{
+    margin-right: 25px;
+}
+
+
+
 
 
 
